@@ -1,2 +1,2 @@
-# portifolio
+# Portfolio
 developer project portifolio
