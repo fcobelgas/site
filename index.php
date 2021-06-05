@@ -12,6 +12,13 @@
     <link rel="manifest" href="ico/site.webmanifest">
 </head>
 <body>
+    <div class="menumobile">
+        <div class="line" id="l1"></div>
+        <div class="line" id="l2"></div>
+        <div class="line" id="l3"></div>
+    </div>
+
+
     <div class="container">
     <header>
         <div class="img-wrapper">
@@ -23,6 +30,18 @@
             <button>Contato</button>
         </div>
     </header>
+
+    <div class="sidebar">
+        <nav>
+            <ul class="tmenu">
+                <li class="tmenu-it"><a href="#" class="tmenu-link">Home</a></li>
+                <li class="tmenu-it"><a href="#" class="tmenu-link">Projetos</a></li>
+                <li class="tmenu-it"><a href="#" class="tmenu-link">Orçamento</a></li>
+                <li class="tmenu-it"><a href="#" class="tmenu-link">Link</a></li>
+                <li class="tmenu-it"><a href="#" class="tmenu-link">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
 
 
     </div>
