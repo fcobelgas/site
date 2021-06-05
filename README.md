@@ -1,5 +1,5 @@
 # MySite - Prgress belo
-developer project portifolio.
+developer project Site of Projects.
 
 ## Process Dev - lets go
 
