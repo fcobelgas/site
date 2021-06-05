@@ -12,11 +12,20 @@
     <link rel="manifest" href="ico/site.webmanifest">
 </head>
 <body>
-    <div class="menumobile">
-        <div class="line" id="l1"></div>
-        <div class="line" id="l2"></div>
-        <div class="line" id="l3"></div>
-    </div>
+<div class="cabecalho">   
+        <div class="menumobile">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>        
+        </div>
+
+        <div class="boxsocial">
+            <a href="https://www.facebook.com/belgasdev"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/fcobelgas"><i class="fab fa-github"></i></a>
+            <a href="https://www.youtube.com/powtvgamer"><i class="fab fa-youtube"></i></a>
+        </div>
+            <h1 a href="# ">Belgas-Projects</h1>
+</div>
 
 
     <div class="container">

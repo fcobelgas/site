@@ -1,34 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Sigmar+One&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Odibee+Sans&family=Sigmar+One&family=ZCOOL+KuaiLe&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
-
 *{margin: 0;padding: 0;}
 
 body{
     font-size: 16px;
 }
+.cabecalho{ 
+    opacity: 0.4;
+    padding: .13rem;   
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 2.3rem;
+    background-color: #ffffff;
+    z-index: 100;    
+}
+.cabecalho h1{
+    font-size: 1.6rem;
+    vertical-align:text-top;
+    padding: .2rem .8rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*text-transform:uppercase;*/
+    cursor: pointer;
+    animation: fadein 1s;   
+}
+
 .menumobile{
     /*background-color: red;*/
-    width: 2.5rem;
-    height: 2.5rem;
-    position: fixed;
-    z-index: 100;
-    left: .7rem;
-    top: .7rem;       
+    width: 2rem;
+    height: 2.2rem;
+    z-index: 100;      
     display: flex;
     flex-direction:column;
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     cursor: pointer;
+    animation: fadein 1s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
 }
+
 
 .line{
     width: 100%;
-    height: .4rem;
-    background-color: white;
-    border: 0.01rem solid purple;
-   box-shadow: 0.02rem 0.05rem purple;
+    height: .33rem;
+    background-color: black;
+}
+.menumobile:hover{
+        transform: rotateY(180deg);
+        
 }
 
-header{
+.boxsocial{
+    /*background-color: red;*/
+    position:absolute;
+    font-size: 1.5rem;
+    top: 20%;
+    right: 1%;
+}
+
+.header{
     width: 100%;
     height: 100vh;
     overflow: hidden;
