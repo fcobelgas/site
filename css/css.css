@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Odibee+Sans&family=Sigmar+One&family=ZCOOL+KuaiLe&family=Baloo+Tammudu+2:wght@700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+*{margin:0; padding:0;text-decoration:none;list-style: none;}
+
+:root{
+    --font0-: "Baloo Tammudu 2", serif;
+    --font1-: "ZCOOL KuaiLe", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --font2-: Odibee Sans, Pacifico, Cambria;
+    --font3-: Arial;
+}
+
+body{
+    font-size: 16px;
+}
+
+.menu111-envelope{    
+    align-items: center;
+    /*text-align: center;*/
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;    
+    width: 100%;
+    height: 2.8rem;    
+    /*padding: .1rem;*/
+    z-index: 1;
+    position: fixed;
+}
+    
+.menu111{
+    /*background-color: red;*/
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    transition-duration: .8s;
+    transition-timing-function:ease-out;
+}
+
+.menu111:hover{    
+    background-color: rgba(120, 122, 122, 0.452);
+}
+
+.menu111-envelope h1{
+    margin-top: 1.6%;
+    border: none;
+    font-size: 2rem;
+    font-family:var(--font0-);
+    color: rgb(17, 0, 255);
+    padding: 0 .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+}
+.social{
+    /*background-color: cadetblue;*/
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
+.fa-facebook, .fa-youtube, .fa-github{
+    color:rgb(0, 255, 242);
+}
+
+.fa-facebook:hover, .fa-youtube:hover, .fa-github:hover{
+    color:rgb(255, 0, 0);
+}
+.line{
+    width: 1.8rem;
+    height: .28rem;
+    background-color: rgb(0, 0, 0);    
+    
+}
+        
+.header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.img-enveloper{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.img-enveloper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 50%;
+    animation: zoom 7s;
+}
+
+.textos{
+   position:absolute;
+    top: 25%;
+    left: 2%;
+}
+.textos h1{
+    color: white;
+    font-family:var(--font1-);
+    font-size: 3rem;
+    padding: 1rem;
+}
+.textos p{
+    padding: 1rem;
+    color: white;
+    font-family:var(--font1-);
+    font-size: 2rem;
+
+}
+.textos button{
+    border: none;
+    background-color: black;
+}
+
+.menuLateral{
+    width: 16rem;
+    height: 100vh;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: -16rem;
+   /* z-index: 2;*/
+    opacity: .95;
+    transition-duration: .5s;
+    transition-timing-function: ease-out;
+}
+
+.menuLateral.aparecerMenu{
+
+    left: 0;
+}
+.menu-barra{
+    width: 100%;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.menu-links{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.menu-links:hover{
+    background-color: rgb(18, 1, 255);
+
+}
+
+.links{
+    width: 100%;
+    font-family:var(--font3-);
+    font-size: 1.8rem;
+    transition-duration: .2s;
+
+}
+.links:hover{
+    font-size: 2rem;
+    color:#ffffff;
+}
+
+
+
+
+@keyframes zoom{
+    from{
+        transform: scale(1.3);
+    }
+    to{
+        transform: scale(1);
+    }
+    
+}
+
